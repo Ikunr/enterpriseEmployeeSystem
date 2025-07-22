@@ -15,7 +15,7 @@ void Boss::showInfo()
 	cout << "职工编号：" << this->m_ID
 		<< "\t职工姓名：" << this->m_Name
 		<< "\t岗位：" << this->getDeptName()
-		<< "\t岗位职责：完成所有任务 " << endl;
+		<< "\t岗位职责：完成公司所有任务 " << endl;
 }
 
 
