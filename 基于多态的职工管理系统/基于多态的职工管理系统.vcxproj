@@ -132,14 +132,26 @@
       <ConformanceMode>true</ConformanceMode>
     </ClCompile>
     <Link>
-      <SubSystem>Console</SubSystem>
+      <SubSystem>NotSet</SubSystem>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="基于多态的职工管理系统.cpp" />
+    <ClCompile Include="boss.cpp" />
+    <ClCompile Include="employee.cpp" />
+    <ClCompile Include="manager.cpp" />
+    <ClCompile Include="workercpp.cpp" />
+    <ClCompile Include="workerManager.cpp" />
+    <ClCompile Include="职工管理系统.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="boss.h" />
+    <ClInclude Include="employee.h" />
+    <ClInclude Include="manager.h" />
+    <ClInclude Include="worker.h" />
+    <ClInclude Include="workerManager.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
