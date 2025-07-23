@@ -5,6 +5,7 @@
 
 using namespace std;
 
+// ¿œ∞Â¿‡ 
 class Boss : public Worker
 {
 public:

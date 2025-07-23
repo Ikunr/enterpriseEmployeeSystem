@@ -5,6 +5,7 @@
 
 using namespace std;
 
+// æ≠¿Ì¿‡ 
 class Manager : public Worker
 {
 public:

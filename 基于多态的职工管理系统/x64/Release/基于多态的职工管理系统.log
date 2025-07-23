@@ -1,11 +1,6 @@
-﻿  boss.cpp
-  employee.cpp
-  manager.cpp
-  workercpp.cpp
-  workerManager.cpp
-  职工管理系统.cpp
+﻿  workerManager.cpp
   正在生成代码
-  Previous IPDB was built with incompatible compiler, fall back to full compilation.
-  All 104 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Previous IPDB and IOBJ mismatch, fall back to full compilation.
+  All 142 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
   已完成代码的生成
-  基于多态的职工管理系统.vcxproj -> F:\learn_c++\enterpriseEmployeeSystem\x64\Release\基于多态的职工管理系统.exe
+  基于多态的职工管理系统.vcxproj -> E:\learn_c++\基于多态的职工管理系统\x64\Release\基于多态的职工管理系统.exe

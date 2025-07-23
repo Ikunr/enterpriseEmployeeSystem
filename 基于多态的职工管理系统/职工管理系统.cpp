@@ -5,32 +5,30 @@
 
 
 #include "workerManager.h"
-#include "worker.h"
-#include "employee.h"
-#include "manager.h"
-#include "boss.h"
 
-void test01()
-{
-	Worker* worker = new Employee(1, "zhangsan", 5);
-	worker->showInfo();
 
-	delete worker;
-	worker = nullptr;
-
-	worker = new Manager(2, "zhangsi", 7);
-	worker->showInfo();
-
-	delete worker;
-	worker = nullptr;
-
-	worker = new Boss(3, "zhangwu", 8);
-	worker->showInfo();
-}
+//void test01()
+//{
+//	Worker* worker = new Employee(1, "zhangsan", 5);
+//	worker->showInfo();
+//
+//	delete worker;
+//	worker = nullptr;
+//
+//	worker = new Manager(2, "zhangsi", 7);
+//	worker->showInfo();
+//
+//	delete worker;
+//	worker = nullptr;
+//
+//	worker = new Boss(3, "zhangwu", 8);
+//	worker->showInfo();
+//}
 
 int main()
 {
-	test01();
+	//test01();
+	
 	// 实例化管理者对象 
 	WorkerManager wm;
 
@@ -53,6 +51,7 @@ int main()
 			wm.exitSystem();
 			break;
 		case 1:  // 增加职工
+			wm.add_Emp();
 			break;
 		case 2:  // 显示职工
 			break;

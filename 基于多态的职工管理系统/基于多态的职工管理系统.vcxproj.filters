@@ -21,7 +21,7 @@
     <ClCompile Include="workerManager.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="workercpp.cpp">
+    <ClCompile Include="worker.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="employee.cpp">
